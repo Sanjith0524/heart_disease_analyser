@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heart Monitoring System</title>
+    <title>Heart Health Analysis</title>
     <link rel="stylesheet" href="{% static 'prediction/index.css' %}">
 </head>
 <body>
@@ -13,7 +13,7 @@
         <div class="Plan1"><a class="Plan"href="/%2Fplans">View Plans</a></div>
     </header>
     <main>
-        <h1 class="head">Heart Monitoring System</h1>
+        <h1 class="head">Heart Health Analysis</h1>
         <form action="{% url 'predict' %}" method="POST">
             {% csrf_token %}
             <div class="form-group">
